@@ -8,4 +8,4 @@ console.log("O preco fina e de " + precoFinal + "Mzn!");
 
 let Frutas = ["Banana", "Manga", "Caju"];
 
-console.log(Frutas[1])
+console.log(Frutas[1]);

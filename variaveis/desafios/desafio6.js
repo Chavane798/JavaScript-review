@@ -2,6 +2,6 @@
 
 let PI = 3.1416;
 let raio = 5;
-let area = (raio**2) * PI;
+let area = raio ** 2 * PI;
 
 console.log("Aare de um circulo com raio " + raio + " e de " + area);
