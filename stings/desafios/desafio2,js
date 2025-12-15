@@ -1,0 +1,9 @@
+// Verifique se uma string contém a palavra "Java" e exiba uma mensagem personalizada.
+
+let texto = "Ola pequeno mundo de programacao javaScript";
+if(texto.includes("java")){
+    console.log(`sim a palavra existe`);
+}else{
+    console.log(`A palavra  nao existe no texto `);
+}
+//console.log(texto.includes("java"));
