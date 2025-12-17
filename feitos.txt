@@ -1,0 +1,172 @@
+🧠 DESAFIO ÚNICO — Sistema Inteligente de Acesso e Pagamento
+
+📌 Contexto
+
+Estás a desenvolver um sistema simples para um portal online que:
+
+valida um utilizador
+
+analisa idade e saldo
+
+processa uma ação escolhida
+
+trabalha com strings, objetos e arrays
+
+devolve mensagens claras no console
+
+
+
+---
+
+🔹 PARTE 1 — Dados do utilizador
+
+Crie um objeto usuario com as seguintes propriedades:
+
+nomeCompleto → string
+
+idade → number
+
+saldo → number
+
+estaLogado → boolean
+
+urlPerfil → string
+
+
+
+---
+
+🔹 PARTE 2 — Tratamento de nome
+
+1. Extraia apenas o primeiro nome do utilizador
+
+
+2. Converta o nome para letras maiúsculas
+
+
+3. Exiba no console:
+
+
+
+Bem-vindo, [NOME]
+
+
+---
+
+🔹 PARTE 3 — Validação de acesso
+
+Use condicionais para validar:
+
+Se não estiver logado, exiba:
+
+
+Acesso negado. Faça login.
+
+Se estiver logado, continue o programa.
+
+
+
+---
+
+🔹 PARTE 4 — Verificação de idade
+
+Se idade ≥ 18 → "Acesso total"
+
+Se idade ≥ 16 e < 18 → "Acesso limitado"
+
+Caso contrário → "Acesso negado por idade"
+
+
+> Use if / else if / else
+
+
+
+
+---
+
+🔹 PARTE 5 — Verificação de URL
+
+Valide se o urlPerfil:
+
+começa com https://
+
+termina com .com
+
+
+Exiba:
+
+"URL válida"
+
+"URL inválida"
+
+
+
+---
+
+🔹 PARTE 6 — Sistema de opções (switch)
+
+Crie uma variável opcao com valores:
+
+1 → Ver saldo
+2 → Depositar
+3 → Sacar
+
+Use switch para:
+
+1 → mostrar o saldo
+
+2 → adicionar um valor fixo ao saldo
+
+3 → subtrair um valor fixo do saldo
+
+opção inválida → mensagem de erro
+
+
+
+---
+
+🔹 PARTE 7 — Classificação do saldo (ternário)
+
+Após a operação:
+
+Se saldo > 0 → "Saldo positivo"
+
+Caso contrário → "Saldo negativo ou zero"
+
+
+Use operador ternário.
+
+
+---
+
+🔹 PARTE 8 — Histórico de ações (array)
+
+Crie um array historico e:
+
+Adicione mensagens como:
+
+"Login realizado"
+
+"Consulta de saldo"
+
+"Depósito efetuado"
+
+
+
+Percorra o array e exiba cada ação no console.
+
+
+---
+
+🔹 PARTE 9 — Mensagem final
+
+Mostre no final algo como:
+
+Resumo do utilizador:
+Nome: ...
+Idade: ...
+Saldo final: ...
+Status: ...
+
+
+---
